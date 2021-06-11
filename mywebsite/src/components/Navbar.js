@@ -46,7 +46,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                          <a href='files/summary.pdf' className="nav-links-mobile" download
+                          <a href='files/Resume.pdf' className="nav-links-mobile" download
                               onClick={closeMobileMenu}>
                                Download Resume
                             </a>
