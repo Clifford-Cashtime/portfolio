@@ -17,13 +17,20 @@ export default function AboutMe() {
                             <h1>About Me</h1>
                         </div>
                         <div className="content">
-                            <h3>A short description of Clifford</h3>
-                            <p>I am recent graduate in BSc Information Technology at the university of North-West (Potchefstroom Campus).
-                            I am a very hard-working person and I am excited to get started in the role I believe I will enjoy. 
-                            And I am a determined person who really wants to make an impact in my first job.
-                            I am a well-focused person in everything that I do, and I never give up. 
-                            I am also someone who you can rely on and I am able to work under pressure.
-                            Am also someone who is able to deal with different people and make friends easily.</p>
+                            <h3>A Short Description of Clifford</h3>
+                            <p>As a highly motivated and dedicated person with strong interpersonal and communication skills,
+                            I have been extensively involved in my former school community, which has allowed me to develop strong
+                            interpersonal skills. My involvement in various events, including choir and sports, has allowed me to
+                            work closely with my peers while supporting the school community as a whole.
+                            These experiences have allowed me to develop strong time management and organisational skills.
+                                .</p>
+                            <h4>My Personal Attributes:</h4>
+                            <p><span>MOTIVATION:</span>Volunteer participation and school results demonstrate high motivation.</p>
+                            <p><span>COMMUNICATION:</span>Singing a choir at school has allowed the development of my communication skills.</p>
+                            <p><span>IT ASSISTENT:</span>Being an IT Assistant at phalaborwa foundation has given me exposure to the
+                                workplace.
+                            </p>
+                            <p>Download my CV Below:</p>
                         </div>
                         <div className="button">
                             <a href='files/Resume.pdf' onClick={pdfGenerate} download>Resume (pdt)</a>

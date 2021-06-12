@@ -45,12 +45,19 @@
     margin-top: 17px;
     color: #5d5d5d;
 }
+.content-section .content h4 {
+    margin-top: 17px;
+    color: #5d5d5d;
+}
 
 .content-section .content p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.content-section .content span {
+    color:blueviolet;
+    font-size: 14px;
+}
 .content-section .content h3 {
     margin-top: 10px;
     font-family: sans-serif;
@@ -67,8 +74,8 @@
 
 .content-section .social i {
     color: #a52a2a;
-    font-size: 30px;
-    padding: 0px 10px;
+    font-size: 20px;
+    padding: 0px 15px;
 }
 
 .content-section .social i:hover {

@@ -37,7 +37,7 @@ export default function ContactUs() {
                     </div>
                     <div className="container-section">
                         <div className="contact-list">
-                            <i class="fa fa-map-marker 0.2em"> Limpopo, Phalaborwa</i>
+                            <i class="fa fa-map-marker 0.2em"> Gauteng, Midrand</i>
                             <i class="fa fa-phone " > (+27) 78 500 7204 / 79 562 8093 </i>
                             <i class="fa fa-envelope abs 5em ">cliffordmathebula22@gmail.com</i>
                             <div className="social">
