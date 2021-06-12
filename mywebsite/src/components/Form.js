@@ -40,6 +40,11 @@ export default function ContactUs() {
                             <i class="fa fa-map-marker 0.2em"> Limpopo, Phalaborwa</i>
                             <i class="fa fa-phone " > (+27) 78 500 7204 / 79 562 8093 </i>
                             <i class="fa fa-envelope abs 5em ">cliffordmathebula22@gmail.com</i>
+                            <div className="social">
+                                <a href="https://www.facebook.com/clifford.mongwe.5/"><i className="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com/CliffordChTm1?s=09/"><i className="fab fa-twitter"></i></a>
+                                <a href="https://www.Linkedin.com/in/clifford-mathebula-70790b1a6"><i className="fab fa-linkedin"></i></a>
+                            </div>
                         </div>
                         <div >
                             <div className="name-input">
