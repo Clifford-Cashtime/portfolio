@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './AboutMe.css';
+import jsPDF from 'jspdf'
 
 export default function AboutMe() {
-
+    const pdfGenerate = () => {
+        const Doc = new jsPDF()
+        Doc.save('Resume.pdf')
+    }
     return (
         <div>
             <div className="section">
@@ -22,9 +26,15 @@ export default function AboutMe() {
                             Am also someone who is able to deal with different people and make friends easily.</p>
                         </div>
                         <div className="button">
-                            <a href="'files/Resume.pdf" download>Resume (pdt)</a>
+                            <a href='files/Resume.pdf' onClick={pdfGenerate} download>Resume (pdt)</a>
+                        </div>
+                        <div className="social">
+                            <a href="https://www.facebook.com/clifford.mongwe.5/"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.twitter.com/CliffordChTm1?s=09/"><i className="fab fa-twitter"></i></a>
+                            <a href="https://www.Linkedin.com/in/clifford-mathebula-70790b1a6"><i className="fab fa-linkedin"></i></a>
                         </div>
                     </div>
+                    
                     <div className="image-section">
                         <img src='images/IMG-ME.jpg' alt=""/>
                     </div>

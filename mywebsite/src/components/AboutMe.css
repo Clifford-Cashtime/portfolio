@@ -8,7 +8,7 @@
 .section {
     width: 100%;
     min-height: 100vh;
-    background-color: white;
+    background-color: #ddd;
 }
 
 .content-section {
@@ -61,13 +61,25 @@
 .content-section .content a {
     outline: none;
 }
+.content-section .social {
+    margin: 40px 40px;
+}
 
+.content-section .social i {
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover {
+    color: #3d3d3d;
+}
 @media screen and (max-width: 768px) {
     .section {
-        min-height: 125vh;
+        min-height: 140vh;
     }
     .container {
-        width: 80%;
+        width: 100%;
         display: block;
         margin: auto;
         padding-top: 50px;
@@ -81,10 +93,16 @@
     }
     .image-section {
         float: none;
-        width: 130%;
+        width: 90%;
         display: block;
         margin: auto;
         padding-top: 15px;
+    }
+    .image-section img{
+        width: 100%;
+        display: block;
+        margin: auto;
+        height: auto;
     }
     .content-section .title {
         text-align: center;
@@ -98,6 +116,9 @@
         font-size: 15px;
         text-align: left;
     }
+    .content-section .social {
+        text-align: center;
+    }   
 }
 
 
