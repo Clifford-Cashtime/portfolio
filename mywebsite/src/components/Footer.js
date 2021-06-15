@@ -53,7 +53,7 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to= {{pathname: "https://www.facebook.com/clifford.mongwe.5/"}}  target='_blank'>Facebook</Link>
-            <Link to={{pathname: "https://www.youtube.com/"}}  target='_blank'>Youtube</Link>
+            <Link to={{pathname: "https://www.github.com/Clifford-Cashtime/portfolio"}}  target='_blank'>Github</Link>
             <Link to={{pathname: "https://www.twitter.com/CliffordChTm1?s=09/"}}  target='_blank'>Twitter</Link>
             <Link to={{pathname: "https://www.Linkedin.com/in/clifford-mathebula-70790b1a6"}}  target='_blank'>LinkedIn</Link>
           </div>
@@ -77,21 +77,14 @@ function Footer() {
             >
               <i className='fab fa-facebook-f' />
             </Link>
-            <Link
-              className='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i className='fab fa-instagram' />
-            </Link>
+        
             <Link
               className='social-icon-link youtube'
-              to={{pathname: "https://www.youtube.com/"}}
+              to={{pathname: "https://github.com/Clifford-Cashtime/portfolio"}}
               target='_blank'
               aria-label='Youtube'
             >
-              <i className='fab fa-youtube' />
+              <i className='fab fa-github' />
             </Link>
             <Link
               className='social-icon-link twitter'

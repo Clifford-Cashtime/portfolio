@@ -18,22 +18,18 @@ export default function AboutMe() {
                         </div>
                         <div className="content">
                             <h3>A Short Description of Clifford</h3>
-                            <p>As a highly motivated and dedicated person with strong interpersonal and communication skills,
-                            I have been extensively involved in my former school community, which has allowed me to develop strong
-                            interpersonal skills. My involvement in various events, including choir and sports, has allowed me to
-                            work closely with my peers while supporting the school community as a whole.
-                            These experiences have allowed me to develop strong time management and organisational skills.
+                            <p>As a highly motivated and dedicated person with strong interpersonal and communication skills, I have been extensively involved in several events and programs, which have allowed me to develop a strong interpersonal skill. My involvement in various events, including choir and sports enhanced me to work closely with my peers while supporting the community as a whole. These experiences have positively improved my time management and strong organizational skills. 
                                 .</p>
                             <h4>My Personal Attributes:</h4>
-                            <p><span>MOTIVATION:</span>Volunteer participation and school results demonstrate high motivation.</p>
-                            <p><span>COMMUNICATION:</span>Singing a choir at school has allowed the development of my communication skills.</p>
+                            <p><span>MOTIVATION:</span>Volunteer in participation and school results demonstrates a higher motivation.</p>
+                            <p><span>COMMUNICATION:</span>Singing in a choir in high school and church allowed me to develop and improve my communication skills.</p>
                             <p><span>IT ASSISTENT:</span>Being an IT Assistant at phalaborwa foundation has given me exposure to the
                                 workplace.
                             </p>
                             <p>Download my CV Below:</p>
                         </div>
                         <div className="button">
-                            <a href='files/Resume.pdf' onClick={pdfGenerate} download>Resume (pdt)</a>
+                            <a href='files/Resume.pdf' onClick={pdfGenerate} download>Resume (pdf)</a>
                         </div>
                         <div className="social">
                             <a href="https://www.facebook.com/clifford.mongwe.5/"><i className="fab fa-facebook-f"></i></a>

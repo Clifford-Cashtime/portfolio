@@ -1,6 +1,13 @@
 import React from 'react';
-import '../../App.css';
+import MyExperience from '../MyExperience';
+/*import Footer from '../Footer';*/
 
-export default function Experience() {
-    return <h1 className = 'experience' > Experience </h1>;
+function Experience() {
+    return (
+    <>
+        <MyExperience />
+        {/*<Footer />*/}
+    </>
+  );
 }
+export default Experience;
