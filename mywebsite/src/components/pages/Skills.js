@@ -1,6 +1,13 @@
 import React from 'react';
-import '../../App.css';
+import MySkills from '../MySkills';
+/*import Footer from '../Footer';*/
 
-export default function Skills() {
-    return <h1 className = 'skills' > Skills </h1>;
+function Skills() {
+    return (
+    <>
+        <MySkills />
+        {/*<Footer />*/}
+    </>
+  );
 }
+export default Skills;

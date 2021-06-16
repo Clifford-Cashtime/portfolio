@@ -1,6 +1,13 @@
 import React from 'react';
-import '../../App.css';
+import MyArchieve from '../MyArchieve';
+/*import Footer from '../Footer';*/
 
-export default function Achievement() {
-    return <h1 className = 'achievement' > Achievements </h1>;
+function Achievement() {
+    return (
+    <>
+        <MyArchieve />
+        {/*<Footer />*/}
+    </>
+  );
 }
+export default Achievement;

@@ -1,6 +1,13 @@
 import React from 'react';
-import '../../App.css';
+import MyProjects from '../MyProjects';
+/*import Footer from '../Footer';*/
 
-export default function Projects() {
-    return <h1 className = 'Projects' > Projects </h1>;
+function Projects() {
+    return (
+    <>
+        <MyProjects />
+        {/*<Footer />*/}
+    </>
+  );
 }
+export default Projects;

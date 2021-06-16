@@ -14,7 +14,7 @@ export default function MyExperience() {
                        
                         <div className="second-content">
                              <h2>BankSeta: Cyber-Security (Currently enrolled): This Internship offers the opportunity to gain 1 year’s work experience and International Certifications in CompTIA Cloud +, Security + and Ethical Hacking upon successful examination.</h2>
-                            <h3>DURATION:  23 MARCH 2021---- 23 MARCH: 2022</h3>
+                            <h3>DURATION:  23 MARCH 2021 - 23 MARCH: 2022</h3>
                             <span>Job description:</span>
                              <ol>
                                 <li>Developing, updating, and implementing security measures and controls.</li>
@@ -33,7 +33,7 @@ export default function MyExperience() {
 
                          <div className="first-content">
                             <h2>Phalaborwa foundation (Internship)</h2>
-                            <h3>DURATION: JUNE--TO--JULY: 2019</h3>
+                            <h3>DURATION: JUNE - TO - JULY: 2019</h3>
                             <span>Job description:</span>
                              <ol>
                                 <li>Build a desktop PC from various components.</li>
