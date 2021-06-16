@@ -10,12 +10,12 @@ export default function AboutMe() {
     return (
         <div>
             <div className="section">
+                <div className="title">
+                    <h1>About Me</h1>
+                </div>
                 {/*<video src='videos/video-2.mp4' autoPlay loop muted />*/}
                 <div className="container">
                     <div className="content-section">
-                        <div className="title">
-                            <h1>About Me</h1>
-                        </div>
                         <div className="content">
                             <h3>A Short Description of Clifford</h3>
                             <p>As a highly motivated and dedicated person with strong interpersonal and communication skills, I have been extensively involved in several events and programs, which have allowed me to develop a strong interpersonal skill. My involvement in various events, including choir and sports enhanced me to work closely with my peers while supporting the community as a whole. These experiences have positively improved my time management and strong organizational skills. 

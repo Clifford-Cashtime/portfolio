@@ -16,30 +16,30 @@ function Cards() {
               path='/Experience'
             />
             <CardItem
-              src='images/img-13.webp'
-              text='Explore more about my work'
-              label='Projects'
-              path='/Project'
+              src='images/img-15.webp'
+              text='My Educational Timeline'
+              label='Education'
+              path='/Education'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-14.webp'
-              text='My achievements'
+               src='images/img-11.webp'
+              text='My Skills'
+               label='Skills'
+              path='/Skills'
+            />
+            <CardItem
+                src='images/img-14.webp'
+              text='My Archievements'
               label='Achievements'
               path='/Achievement'
             />
             <CardItem
-              src='images/img-11.webp'
-              text='The skills i possesses'
-              label='Skills'
-              path='/Skills'
-            />
-            <CardItem
-              src='images/img-15.webp'
-              text='Take a look to my Awards'
-              label='Awards'
-              path='/Award'
+               src='images/img-13.webp'
+              text='Take a look to my Projects'
+              label='Projects'
+              path='/Projects'
             />
           </ul>
         </div>

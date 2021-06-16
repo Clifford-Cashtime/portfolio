@@ -7,7 +7,7 @@
 
 .section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 150vh;
     background-color: #ddd;
 }
 
@@ -18,17 +18,18 @@
 
 .image-section {
     float: right;
-    width: 45%;
-    padding-left: 50px;
+    width: 60%;
+    padding: 10px 50px;
 }
 
 .container {
     width: 80%;
     margin: auto;
-    padding: 100px;
+    padding: 10px 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  
 }
 
 .image-section img {
@@ -36,9 +37,26 @@
     height: auto;
 }
 
-.content-section .title {
+.section .title h1 {
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 40px;
+    padding: 50px;
+    display: flex;
+
+}
+ .section .title h1::after {
+    content: "";
+    height: 6px;
+    width: 200px;
+    background-color: #222;
+    border-radius: 16px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin-bottom: -45px;
+   
 }
 
 .content-section .content h3 {
@@ -89,7 +107,7 @@
         width: 100%;
         display: block;
         margin: auto;
-        padding-top: 50px;
+        padding: 0px 20px;
         flex-flow: column;
     }
     .content-section {
@@ -100,10 +118,10 @@
     }
     .image-section {
         float: none;
-        width: 90%;
+        width: 100%;
         display: block;
         margin: auto;
-        padding-top: 15px;
+        padding: 0px 15px;
     }
     .image-section img{
         width: 100%;
@@ -111,9 +129,12 @@
         margin: auto;
         height: auto;
     }
-    .content-section .title {
-        text-align: center;
+    .section .title {
+        align-items: left;
         font-size: 16px;
+    }
+    .section .title::after {  
+        width: 150px;     
     }
     .content-section .h3 {
         text-align: left;
