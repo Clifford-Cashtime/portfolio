@@ -159,8 +159,22 @@
 }
 @media screen and (max-width: 900px){
     .sectionss{
-        grid-template-columns: repeat(1, 0.5fr);
+        grid-template-columns: repeat(1, 1fr);
     
+    }
+    .technical_skills{
+        width: 300px;
+        margin: 60px auto;
+        color:#222;
+        padding: 5px 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
+    }
+    .professional_skills{
+        width: 350px;
+        margin: 60px auto;
+        color:#222;
+        padding: 5px 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
     }
     
     .container1 .heading{
@@ -249,14 +263,14 @@
     
     }
     .technical_skills{
-        width: 400px;
+        width: 350px;
         margin: 60px auto;
         color:#222;
         padding: 5px 5px;
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
     }
     .professional_skills{
-        width: 400px;
+        width: 350;
         margin: 60px auto;
         color:#222;
         padding: 5px 5px;
