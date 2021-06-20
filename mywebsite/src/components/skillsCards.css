@@ -1,0 +1,268 @@
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.title h1{
+    padding-top: 30px;
+}
+.title h1::after{
+    content: "";
+    height: 6px;
+    width: 125px;
+    background-color: #222;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.sectionss{
+    width: 100%;
+
+}
+.container_sec{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:40px;
+    margin: 30px auto;
+}
+
+.professional_skills{
+    width: 500px;
+    margin: 60px auto;
+    color:#222;
+    padding: 20px 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
+}
+.professional_skills li{
+   margin: 20px 0;
+   padding: 10px;
+}
+.communication{
+    width: 90%;
+    animation: communication 3s;
+}
+.management{
+    width: 85%;
+    animation: management 3s;
+}
+.team{
+    width: 85%;
+    animation: team 3s;
+}
+.creativity{
+    width: 70%;
+    animation: creativity 3s;
+}
+@keyframes communication{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes management{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes team{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes creativity{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.other_skills h4{
+    font-size: x-large;
+    text-align: center;
+    color: #222;
+    padding-bottom: 15px;
+}
+.other_skills h4:after{
+     content: "";
+    height: 3px;
+    width: 230px;
+    background-color: #222;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+}
+.other_skills li{
+    font-size: medium;
+    text-align: center;
+    color: #222;
+    padding-top: 5px;
+    margin: 0px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.other_skills li:hover{
+   color: forestgreen;
+}
+.other_flex .f3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.other_flex .S3{
+    display: flex;
+    justify-content: center;
+}
+.leadership_skills h5{
+    font-size: larger;
+    text-align: center;
+    color: #222;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.leadership_skills h5:after{
+    content: "";
+    height: 3px;
+    width: 380px;
+    background-color: #222;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+}
+.leadership_skills li{
+    font-size: medium;
+    text-align: center;
+    color: #222;
+    cursor: pointer;
+    margin: 15px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.leadership_skills ul{
+   padding-top: 10px;
+}
+@media screen and (max-width: 900px){
+    .sectionss{
+        grid-template-columns: repeat(1, 0.5fr);
+    
+    }
+    
+    .container1 .heading{
+        font-size: 15px;
+    }
+    h1::after{
+        width: 115px;
+      
+    }
+    .professional_skills{
+       padding-top: 20px;
+    }
+    .bar{
+        height: 15px;
+        font-size: 10px;
+    }
+    .title h1::after{
+        height: 6px;
+        width: 105px;
+    }
+    .technical_skills li{
+        margin: 7px 0;
+        padding: 8px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    .other_skills h4{
+        padding-bottom: -50px;
+        font-size: 20px;
+    }
+    .other_skills ul{
+        padding-top: 20px;
+    }
+    .leadership_skills h5{
+        font-size: 18px;
+    }
+    .other_skills h4:after{
+        width: 190px;
+    }
+    .leadership_skills h5:after{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 700px){
+    .container_sec{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .technical_skills{
+        width: 340px;
+        margin: 60px auto;
+        color:#222;
+        padding: 5px 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
+    }
+    .professional_skills{
+        width: 350px;
+        margin: 60px auto;
+        color:#222;
+        padding: 5px 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
+    }
+    
+    .container1 .heading{
+        font-size: 15px;
+    }
+    h1::after{
+        width: 115px;
+      
+    }
+    .professional_skills{
+       padding-top: 20px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .container_sec{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .technical_skills{
+        width: 400px;
+        margin: 60px auto;
+        color:#222;
+        padding: 5px 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
+    }
+    .professional_skills{
+        width: 400px;
+        margin: 60px auto;
+        color:#222;
+        padding: 5px 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
+    }
+    
+
+}
+
