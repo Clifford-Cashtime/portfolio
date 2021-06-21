@@ -142,6 +142,14 @@
 #more{
     display: none;
 }
+.footerr-container {
+    background-color: #242424;
+    padding: 0rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 900px){
     .contents-section{
         grid-template-columns: repeat(1, 1fr);

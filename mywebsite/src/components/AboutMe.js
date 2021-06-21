@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
-import jsPDF from 'jspdf'
+import jsPDF from 'jspdf';
+import { Link } from 'react-router-dom';
 
 export default function AboutMe() {
     const pdfGenerate = () => {
@@ -42,7 +43,9 @@ export default function AboutMe() {
                         <img src='images/IMG-ME.jpg' alt=""/>
                     </div>
                 </div>
-            </div>
+                
+            </div>          
         </div>
+        
     )
 }

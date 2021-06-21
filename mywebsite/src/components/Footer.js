@@ -29,9 +29,10 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>About </h2>
             <Link to='/About'>About me</Link>
-            <Link to='/Skills'>Skills</Link>
-            <Link to='/Award'>Goals & Awards</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/Experience'>Experience</Link>
+            <Link to='/Skills'>skills</Link>
+            <Link to='/Education'>Education</Link>
+            <Link to='/Achievement'>Achievements</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Me</h2>
@@ -48,6 +49,7 @@ function Footer() {
             <Link to='/'>"///////"</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
+            <Link to='/'>Terms of Service</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>

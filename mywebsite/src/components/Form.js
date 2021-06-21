@@ -64,8 +64,12 @@ export default function ContactUs() {
                             </div>
                         </div>
                     </div>
+                    
                 </form>
+                
             </div>
+            
         </div>
+        
     )
 }

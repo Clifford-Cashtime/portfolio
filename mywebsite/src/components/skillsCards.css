@@ -17,6 +17,12 @@
     display: block;
     margin: auto;
 }
+
+.description {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
 .sectionss{
     width: 100%;
 
@@ -117,6 +123,7 @@
 }
 .other_skills li:hover{
    color: forestgreen;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
 }
 .other_flex .f3{
     display: flex;
@@ -154,13 +161,29 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
+.leadership_skills li:hover{
+    color: forestgreen;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0.22);
+  
+}
 .leadership_skills ul{
    padding-top: 10px;
+}
+.footerr-container {
+    background-color: #242424;
+    padding: 0rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 900px){
     .sectionss{
         grid-template-columns: repeat(1, 1fr);
     
+    }
+    .description {
+        font-size: 19px;
     }
     .technical_skills{
         width: 350px;

@@ -1,6 +1,8 @@
 import React from 'react';
 import './MySkills.css';
 import './skillsCards.css';
+import { Link } from 'react-router-dom';
+
 
                
 export default function MySkills() {
@@ -8,6 +10,9 @@ export default function MySkills() {
         <div>
             <div className="title">
                 <h1>My Skills</h1>
+            </div>
+             <div className="description">
+                <span>My Technical, Professional and Leadership Skills</span>
             </div>
             <section className="sectionss">
                 <div className="container_sec">
@@ -80,7 +85,7 @@ export default function MySkills() {
                             <h4>Other Personal Skills</h4>
                             <ul className="other_flex">
                                 <div className="f3">
-                                    <li>MS-office</li>
+                                    <li>MS-Office</li>
                                     <li>MongoDB</li>
                                     <li>SQL</li>
                                 </div>
@@ -96,7 +101,7 @@ export default function MySkills() {
                          <div className="leadership_skills">
                             <h5>Proven Leadership Skills As Manifestet In:</h5>
                             <ul className="leader">
-                                <li>Organizational skills: breaking my work load down in achievable sections.</li>
+                                <li>Organizational skills: breaking my work-load down into achievable sections.</li>
                                 <li>My leadership skills as proven through the election as leader at Bank Seta.</li>
                                 <li>My education from north west university.</li>
                                 <li>My leadership training course certificate.</li>
@@ -106,7 +111,56 @@ export default function MySkills() {
                         </div>
                     </div>
                 </div>
+                <div className="footerr-container">
+                 <section className='social-media'>
+                    <div className='social-media-wrap'>
+                    <div className='footer-logo'>
+                        <Link to='/' className='social-logo'>
+                        CLIFFORD
+                        <i className='fab fa-typo3' />
+                        </Link>
+                    </div>
+                    <small className='website-rights'>CLIFFORD © 2020</small>
+                    <div className='social-icons'>
+                        <Link
+                        className='social-icon-link facebook'
+                        to={{pathname: "https://www.facebook.com/clifford.mongwe.5/"}}
+                        target='_blank'
+                        aria-label='Facebook'
+                        >
+                        <i className='fab fa-facebook-f' />
+                        </Link>
+                    
+                        <Link
+                        className='social-icon-link youtube'
+                        to={{pathname: "https://github.com/Clifford-Cashtime/portfolio"}}
+                        target='_blank'
+                        aria-label='Youtube'
+                        >
+                        <i className='fab fa-github' />
+                        </Link>
+                        <Link
+                        className='social-icon-link twitter'
+                        to={{pathname: "https://www.twitter.com/CliffordChTm1?s=09/"}}
+                        target='_blank'
+                        aria-label='Twitter'
+                        >
+                        <i className='fab fa-twitter' />
+                        </Link>
+                        <Link
+                        className='social-icon-link twitter'
+                        to={{pathname: "https://www.Linkedin.com/in/clifford-mathebula-70790b1a6"}}
+                        target='_blank'
+                        aria-label='LinkedIn'
+                        >
+                        <i className='fab fa-linkedin' />
+                        </Link>
+                    </div>
+                    </div>
+                </section>
+                </div>
             </section>
+          
         </div>
     )
 }
