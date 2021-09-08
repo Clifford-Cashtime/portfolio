@@ -32,7 +32,7 @@ export default function AboutMe() {
                             <p>Download my CV Below:</p>
                         </div>
                         <div className="button">
-                            <a href='files/Resume.pdf' onClick={pdfGenerate} download>Resume (pdf)</a>
+                            <a href='files/ResumeCV.pdf' onClick={pdfGenerate} download>Resume (pdf)</a>
                         </div>
                         <div className="social">
                             <a href="https://www.facebook.com/clifford.mongwe.5/"><i className="fab fa-facebook-f"></i></a>
