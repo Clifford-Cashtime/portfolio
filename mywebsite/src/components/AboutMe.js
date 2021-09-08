@@ -27,6 +27,8 @@ export default function AboutMe() {
                             <p><span>IT ASSISTENT:</span>Being an IT Assistant at phalaborwa foundation has given me exposure to the
                                 workplace.
                             </p>
+                            <p><span>BANKSETA:</span>I am curreclty hosted by Nedbank as a RBB Cyber Risk Specialist under BankSeta Learnership.
+                            </p>
                             <p>Download my CV Below:</p>
                         </div>
                         <div className="button">
@@ -40,7 +42,7 @@ export default function AboutMe() {
                     </div>
                     
                     <div className="image-section">
-                        <img src='images/IMG-ME.jpg' alt=""/>
+                        <img src='images/ME-IMG.jpg' alt=""/>
                     </div>
                 </div>
                 

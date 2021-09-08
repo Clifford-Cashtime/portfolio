@@ -42,7 +42,7 @@ export default function MyEducation() {
                         <div class="timeline-content">
                             <h3>Majeje High</h3>
                             <p>Attended from grade 8 -to- grade 12 (Was among the top-10 of best learners in Mathematics).</p><br></br>
-                            <p>Was part of the school choir which severally qualified to provitional level competions and brought greate Gold and Silver Trophes.</p><br></br>
+                            <p>Was part of the school choir which severally qualified to provitional level competitions and brought greate Gold and Silver Trophes.</p><br></br>
                             <p>Metriculated in 2017 with Bachelor's Degree.</p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ export default function MyEducation() {
                         <div class="timeline-date">first-quarter of 2022</div>
                         <div class="timeline-content">
                             <h3>My First Job</h3>
-                            <p>I'm hoping to get a job towards the end of first-quarter of 2022.</p>
+                            <p>I'm hoping to get a permanent position towards the end of first-quarter of 2022.</p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ export default function MyEducation() {
                                 <i className='fab fa-typo3' />
                                 </Link>
                             </div>
-                            <small className='website-rights'>CLIFFORD © 2020</small>
+                            <small className='website-rights'>CLIFFORD © 2021</small>
                             <div className='social-icons'>
                                 <Link
                                 className='social-icon-link facebook'
